@@ -1,5 +1,3 @@
-"""ส่วนที่ 1: โครงสร้างโปรแกรมและข้อมูลสินค้าตัวอย่าง"""
-
 from dataclasses import dataclass
 from decimal import Decimal
 
@@ -15,7 +13,6 @@ class Product:
 
 
 def main():
-    # ใช้ Decimal เพื่อคำนวณจำนวนเงินโดยไม่คลาดเคลื่อนแบบ float
     products = [
         Product("P001", "น้ำดื่ม", Decimal("10.00"), 20),
         Product("P002", "ขนมปัง", Decimal("25.00"), 10),
